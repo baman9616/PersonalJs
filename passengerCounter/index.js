@@ -14,7 +14,11 @@ function incrementCounter()
  	localStorage.setItem("countVal",count);
  	let savedCount= localStorage.getItem("countVal");
  	console.log("the saved value from the db=>",savedCount)
+ 	count =0;
  	coutEl.innerText = 0;
 
  }
+
+
+ 
 
